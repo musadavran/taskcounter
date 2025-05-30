@@ -21,6 +21,8 @@ while ( mission < 1 ):
     elif "no" in finished_u:
         print ("I'm giving you a little more time.")
         time.sleep(60)
+    else:
+        print("Please try again.")
         
         
 
